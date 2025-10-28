@@ -77,16 +77,15 @@ export default function Home() {
         {/* 🔹 Header with Logo and Tagline */}
        <div className="flex items-center gap-4 mb-6">
   {/* ✅ Elegant circular logo frame */}
-  <div className="w-14 h-14 rounded-full bg-gradient-to-br from-sky-500/20 to-cyan-400/10 p-[2px] shadow-lg">
-    <div className="w-full h-full rounded-full bg-gradient-to-br from-gray-900 to-black flex items-center justify-center overflow-hidden">
-      <img
-        src="/logo.png"
-        alt="BLAI Logo"
-        className="w-10 h-10 object-contain opacity-90 hover:opacity-100 transition-all duration-300"
-      />
-    </div>
+<div className="w-14 h-14 rounded-full bg-gradient-to-br from-sky-500/20 to-cyan-400/10 p-[2px] shadow-lg">
+  <div className="w-full h-full rounded-full bg-gradient-to-br from-white to-gray-50 flex items-center justify-center overflow-hidden">
+    <img
+      src="/logo.png"
+      alt="BLAI Logo"
+      className="w-10 h-10 object-contain opacity-90 hover:opacity-100 transition-all duration-300"
+    />
   </div>
-
+</div>
   {/* ✅ Title */}
   <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-cyan-300 to-blue-200 tracking-tight drop-shadow-[0_2px_8px_rgba(56,189,248,0.3)]">
     BLAI CodeLens
